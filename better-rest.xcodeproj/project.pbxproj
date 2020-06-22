@@ -15,6 +15,7 @@
 		64525D2E249EA8850099F21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64525D2C249EA8850099F21B /* LaunchScreen.storyboard */; };
 		64525D39249EA8850099F21B /* better_restTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64525D38249EA8850099F21B /* better_restTests.swift */; };
 		64525D44249EA8850099F21B /* better_restUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64525D43249EA8850099F21B /* better_restUITests.swift */; };
+		64525D52249FEFBD0099F21B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64525D51249FEFBD0099F21B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64525D3F249EA8850099F21B /* better-restUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "better-restUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64525D43249EA8850099F21B /* better_restUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = better_restUITests.swift; sourceTree = "<group>"; };
 		64525D45249EA8850099F21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64525D51249FEFBD0099F21B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				64525D27249EA8850099F21B /* Assets.xcassets */,
 				64525D2C249EA8850099F21B /* LaunchScreen.storyboard */,
 				64525D2F249EA8850099F21B /* Info.plist */,
+				64525D51249FEFBD0099F21B /* SleepCalculator.mlmodel */,
 				64525D29249EA8850099F21B /* Preview Content */,
 			);
 			path = "better-rest";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64525D22249EA8840099F21B /* AppDelegate.swift in Sources */,
+				64525D52249FEFBD0099F21B /* SleepCalculator.mlmodel in Sources */,
 				64525D24249EA8840099F21B /* SceneDelegate.swift in Sources */,
 				64525D26249EA8840099F21B /* ContentView.swift in Sources */,
 			);
